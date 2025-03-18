@@ -7,9 +7,15 @@ path: '',
 component: HomeComponent,
 title: 'Home page',
 },
+// {
+// path: 'details',
+// component: DetailsComponent,
+// title: 'Home Details'
+// },
+
 {
-path: 'details',
-component: DetailsComponent,
-title: 'Home Details'
-},
+    path: 'details/:id',
+    component: DetailsComponent,
+    title: 'Home Details'
+    },
 ];
