@@ -7,7 +7,7 @@ import { RouterModule, RouterLink, RouterOutlet, Router } from '@angular/router'
 
 @Component({
   selector: 'app-housing-location',
-  imports: [RouterModule, RouterLink, RouterOutlet, CommonModule],
+  imports: [RouterModule, RouterLink, CommonModule],
   templateUrl: './housing-location.component.html',
   styleUrl: './housing-location.component.css'
 })
