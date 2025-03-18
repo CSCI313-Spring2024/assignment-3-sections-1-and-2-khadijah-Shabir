@@ -9,6 +9,7 @@ import {HousingLocation} from '../housinglocation';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
+
 export class HomeComponent {
 
  readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
