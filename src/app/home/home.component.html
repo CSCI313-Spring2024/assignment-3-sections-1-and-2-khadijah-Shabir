@@ -14,9 +14,9 @@
   </form>
 </section>
 <section class="results">
-    @for (housingLocation of filteredLocationList; track housingLocation){
+    @for (hl of filteredLocationList; track hl){
         <app-housing-location
-        [housingLocation]="housingLocation"
+        [housingLocation]="hl"
         ></app-housing-location>
         }
 </section>
